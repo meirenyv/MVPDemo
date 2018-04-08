@@ -44,8 +44,8 @@ dependencies {
     //结果转为基本类型所需依赖
     compile 'com.squareup.retrofit2:converter-scalars:2.3.0'
     //butterknife
-    compile 'com.jakewharton:butterknife:8.5.1'
-    compile 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     //design依赖
     compile 'com.android.support:design:26.0.0'
     //dialog
