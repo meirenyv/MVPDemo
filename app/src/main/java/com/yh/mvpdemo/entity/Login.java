@@ -55,5 +55,14 @@ public class Login {
     public void setLocation(String location) {
         this.location = location;
     }
+    @Override
+    public String toString() {
+        return "Login{" +
+                "time='" + time + '\'' +
+                ", ftime='" + ftime + '\'' +
+                ", context='" + context + '\'' +
+                ", location='" + location + '\'' +
+                '}';
+    }
 
 }

@@ -58,13 +58,13 @@ public class ProgressDialogHandler extends Handler {
 
     @Override
     public void handleMessage(Message msg) {
-        switch (msg.what) {
+       /* switch (msg.what) {
             case SHOW_PROGRESS_DIALOG:
                 initProgressDialog();
                 break;
             case DISMISS_PROGRESS_DIALOG:
                 dismissProgressDialog();
                 break;
-        }
+        }*/
     }
 }

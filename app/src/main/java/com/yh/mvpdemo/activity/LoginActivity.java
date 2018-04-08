@@ -2,6 +2,7 @@ package com.yh.mvpdemo.activity;
 
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.yh.mvpdemo.R;
 import com.yh.mvpdemo.base.BaseActivity;
@@ -9,7 +10,6 @@ import com.yh.mvpdemo.base.BaseResponse;
 import com.yh.mvpdemo.contract.LoginContract;
 import com.yh.mvpdemo.entity.Login;
 import com.yh.mvpdemo.presenter.LoginPresenter;
-import com.yh.mvpdemo.utils.ToastUtil;
 
 import java.util.HashMap;
 import java.util.List;
@@ -53,7 +53,8 @@ public class LoginActivity extends BaseActivity<LoginContract.View, LoginPresent
 
     @Override
     public void setMsg(String msg) {
-        ToastUtil.showShortToast(msg);
+       // ToastUtil.showShortToast(msg);
+        Toast.makeText(this,msg,Toast.LENGTH_LONG).show();
     }
 
     @Override
